@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    listar_usuarios();
+    listar_usuarios(); //listar usuarios
     function listar_usuarios(dni){
         $.ajax({
             type: "POST",
